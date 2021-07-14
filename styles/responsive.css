@@ -1,0 +1,101 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+	.players {
+		width: 100%;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.highlight-section {
+		width: 100%;
+		display: block;
+
+	}
+
+	.highlight-text {
+		width: 100%;
+
+	}
+
+	.highlight-text p {
+		padding-right: 28px;
+	}
+
+	navbar {
+		display: none
+	}
+
+	.header-top-area {
+		display: grid;
+	}
+
+	.section-area-one {
+		padding-left: 0;
+		margin-top: 70px;
+	}
+
+	.section-left h1 {
+		line-height: 50px;
+		font-size: 36px;
+	}
+
+	.section-right-area {
+		width: 100%;
+		margin-top: 55px;
+	}
+
+	.section-right-area img {
+		height: 260px;
+	}
+
+	.highlight-sections {
+		display: initial;
+		padding-left: 40px;
+		padding-right: 40px;
+		margin: 100px 0px;
+	}
+
+	.highlight-text-inner-content {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+
+	.highlight-text-inner-content h2 {
+		font-size: 30px;
+		line-height: 40px;
+		margin-bottom: 8px;
+	}
+
+	.highlight-video {
+		width: 93%;
+		margin-top: 25px
+	}
+
+	.video-content {
+		padding: 0px 15px;
+		margin-top: 30px;
+	}
+
+	.footer-banner {
+		text-align: center;
+	}
+
+	.footer-banner img {
+		height: 75px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	body {
+		background: gray
+	}
+
+	.highlight-sections {
+		display: initial;
+		padding-left: 40px;
+		padding-right: 40px;
+		margin: 100px 0px;
+	}
+}
