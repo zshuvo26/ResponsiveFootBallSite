@@ -150,6 +150,7 @@ a.btn-link i {
 	height: 256px;
 }
 
+.player-info {}
 
 .player-title {
 	font-size: 28px;
@@ -164,7 +165,6 @@ a.btn-link i {
 }
 
 /* highlight section */
-
 .highlight-sections {
 	padding-left: 182px;
 	padding-right: 112px;
@@ -172,7 +172,6 @@ a.btn-link i {
 	margin-top: 110px;
 	margin-bottom: 90px
 }
-
 
 .highlights-text,
 .highlights-video {
@@ -189,6 +188,53 @@ a.btn-link i {
 	margin-bottom: 8px;
 }
 
+
+
+
+
+
+
+
+.highlight-section {
+	width: 1021px;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 30px;
+	align-items: center;
+	margin-bottom: 20px;
+	padding: 15px;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.highlight-text {
+	color: #0A0826;
+	width: 469px;
+
+
+}
+
+.highlight-text h2 {
+	font-size: 48px;
+}
+
+.btn-link-highlight {
+	width: 152;
+	height: 28px;
+	background-color: #E02C6D;
+	margin-right: 278px;
+
+
+}
+
+.btn-link-highlight a {
+	font-size: 16px;
+	height: 44px;
+	padding: 10px 24px;
+	color: white;
+	text-decoration: none;
+
+}
 
 /* footer styles */
 
